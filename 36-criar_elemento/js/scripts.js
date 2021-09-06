@@ -14,12 +14,12 @@ body.appendChild(novoParagrafo);
 
 // inserir 
 
-var conteiner = document.getElementById("conteiner");
-console.log(conteiner);
+var container = document.getElementById("container");
+console.log(container);
 
 var el =document.createElement("span");
 el.appendChild(document.createTextNode("texto do span"));
 
 console.log(el);
 
-conteiner.appendChild(el);
+container.appendChild(el);
